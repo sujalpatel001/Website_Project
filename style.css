@@ -1,0 +1,28 @@
+body {
+    background-color: #001d3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    font-size: 1em;
+    font-family: sans-serif;
+    color: white;
+    background-color: #001d3d;
+    border: 2px solid #ffd60a;
+    transition: 0.25s;
+}
+
+button:hover {
+    font-size: 1.2em;
+    box-shadow: 0px 2px 5px -1px #ffd60a;
+    translate: 0 -0.2em;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
